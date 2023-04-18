@@ -1,0 +1,251 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--cor-fundo: #000;
+	--cor-texto: #FFF;
+	--cor-botao: #009748;
+}
+
+header {
+	background-color: var(--cor-fundo);
+	text-align: center;
+	padding: 20px 10px;
+}
+
+#Inicio {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: "col-esquerda col-direita";
+	width: 1440px;
+	grid-template-columns: 720px 720px;
+
+}
+
+.coluna_esquerda {
+	text-align: center;
+	background-color: black;
+	grid-area: col-esquerda;
+	height: 900px;
+	background-color: transparent;
+}
+
+.titulo {
+	font-family: Inter;
+	font-weight: 900px;
+}
+
+p {
+	color: #FFF;
+}
+
+.botao_combo {
+    display: block;
+	margin: 10px 60px 16px 60px;
+	background: var(--cor-botao);
+	color: var(--cor-texto);
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 16px;
+	font-family: 'Inter';
+	font-size: 16px;
+
+}
+
+.botao_dev {
+	display: block;
+	background: transparent;
+	color: var(--cor-texto);
+	border: 2px solid #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 0px 60px;
+	font-family: 'Inter';
+	font-size: 16px;
+
+}
+
+.bk_quarteto {	background-image: url('../imagens/caras.png');
+	background-repeat: no-repeat;
+}
+
+#Sessão {
+	background-color: #222634;
+	height: 900px;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: "col-esquerda col-direita";
+	width: 1440px;
+	grid-template-columns: 800px 800px;
+}
+
+.margem {
+	margin: 276px 24px 275px 132px;
+}
+
+.Maiuscula {
+	font-family: Inter;
+	font-weight: 900px;;
+	font-size: 40px;
+	margin: 384px 120px 402px 24px;
+	grid-area: col-direita;
+}
+
+.Maiusculo {
+	font-family: Inter;
+	font-weight: 900px;
+	font-size: 16px;
+	margin: 450px 120px 402px 24px;
+	grid-area: col-direita;
+}
+
+#Sessão2 {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+
+.Margin {
+	margin: 281px 129px 293px 24px;
+	grid-area: col-direita;
+}
+
+.Combo {
+	font-family: Inter;
+	font-weight: 900px;
+	font-size: 16px;
+	margin: 312px 24px 512px 135px;
+	grid-area: col-esquerda;
+}
+
+.botao_combo2 {
+    display: block;
+	margin: 426px 55px 414px 165px;
+	background: var(--cor-botao);
+	color: var(--cor-texto);
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 16px;
+	font-family: 'Inter';
+	font-size: 16px;
+	grid-area: col-esquerda;
+	text-align: center;
+}
+
+#Sessão3 {
+    background-color: #222634;
+	height: 900px;
+ }
+
+ .Grande {
+	font-family: Inter;
+	font-weight: 900px;;
+	font-size: 40px;
+	margin: 405px 120px 437px 24px;
+	grid-area: col-direita;
+}
+
+.Gigante {
+	font-family: Inter;
+	font-weight: 900px;
+	font-size: 16px;
+	margin: 471px 120px 381px 24px;
+	grid-area: col-direita;
+}
+
+.Pequeno {
+	margin: 262px 25px 294px 134px;
+}
+
+#Sessão4 {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+
+.Title {
+	font-family: Inter;
+	font-weight: 900px;;
+	font-size: 40px;
+	text-align: center;
+	margin: -600px auto auto auto;
+}
+
+.Minusculo {
+	margin: 476px 131px 280px 135px;
+}
+
+.tv {
+	margin: 257px 272px 280px 296px;
+}
+
+.pcs {
+	margin: -310px 809px 581px 675px;
+}
+
+.ct {
+	margin: -613px -378px 313px 1076px;
+}
+
+#Sessão5 {
+	background-color: #222634;
+	height: 900px;
+}
+
+.contato_conteudo {
+	margin: auto 0px;
+	background-color: #222634;
+	text-align: center;
+	color: var(--cor-texto);
+	font-family: 'Inter';
+	padding: 50px;
+}
+
+.contato_conteudo h1 {
+	font-size: 48px;
+}
+
+.control_form {
+	text-align: center;
+	background-color: #2E3447;
+	color: var(--cor-texto);
+	border: 1px solid var(--cor-texto);
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	width: 500px;
+}
+
+.button_form {
+	background-color: var(--cor-botao);
+	color: var(--cor-texto);
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	display: block;
+	width: 520px;
+	margin: 0 auto;
+	font-size: 16px;
+	border: 2px solid transparent;
+}
+
+.button_form:hover {
+    background-color: transparent;
+    color: #2E3447;
+    border: 2px solid #2E3447;
+}
+
+footer{
+	background-color: #222634;
+	color: var(--cor-texto);
+	padding: 20px 10px;
+	text-align: center;
+}
